@@ -8,27 +8,37 @@ Developer/ Analyst::
 Developer/ Analyst:
 
 ## Regular meeting schedule:
-Planning:
-Daily:
+- Planning:
+- Daily:
 
 ## Project plan Deliverable 1:
 
 ### Topic
 
-- Is there a correlation between suicide risk and socio-economic status and/or health data?
+**Is there a correlation between suicide risk and socio-economic status and/or health data?**
 
 ### Data Source 
 - Data:
 [Education Level](https://data.oecd.org/eduatt/adult-education-level.htm)
+
 [Social Support](https://data.oecd.org/healthrisk/social-support.htm)
+
 [Alcohol Consumption](https://data.oecd.org/healthrisk/alcohol-consumption.htm)
+
 [Employment Rate](https://data.oecd.org/emp/employment-rate.htm)
+
 [Daily Smokers](https://data.oecd.org/healthrisk/daily-smokers.htm#indicator-chart)
+
 [Obesity](https://data.oecd.org/healthrisk/overweight-or-obese-population.htm#indicator-chart)
+
 [Health Speding](https://data.oecd.org/healthres/health-spending.htm)
+
 [Social Speding](https://data.oecd.org/socialexp/social-spending.htm)
+
 [Poverty](https://data.oecd.org/inequality/poverty-rate.htm)
+
 [Suicide Rate](https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021)
+
 
 - Resources: Pandas, Jupyter Notebook
 
