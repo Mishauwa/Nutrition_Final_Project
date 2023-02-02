@@ -109,23 +109,23 @@ To create the ERD diagram:
 - We went back to the tables and drop ‘Social_support’ and ‘Poverty’ tables
 - All the other tables we drop the ‘Indicator’ and ‘Subject’ columns
 
-![alcohol_table](alcohol_table.png).
+![alcohol_table](png/alcohol_table.png).
 
-![education_table](education_table.png).
+![education_table](png/education_table.png).
 
-![employment_table](employment_table.png).
+![employment_table](png/employment_table.png).
 
-![health_spending_table](health_spending_table.png).
+![health_spending_table](png/health_spending_table.png).
 
-![obesity_table](obesity_table.png).
+![obesity_table](png/obesity_table.png).
 
-![smoking_table](smoking_table.png).
+![smoking_table](png/smoking_table.png).
 
-![social_spending_table](social_spending_table.png).
+![social_spending_table](png/social_spending_table.png).
 
-![suicide_table](suicide_table.png).
+![suicide_table](png/suicide_table.png).
 
-![work_hour_table](work_hour_table.png).
+![work_hour_table](png/work_hour_table.png).
 
 
 ### Machine Learning 
