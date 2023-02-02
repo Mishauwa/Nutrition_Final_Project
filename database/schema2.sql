@@ -6,15 +6,19 @@ Time INT NOT NULL,
 Value float NOT NULL
 );
 
-DROP TABLE "“alcohol”"
+DROP TABLE "alcohol";
+
+CREATE TABLE Alcohol (
+LocationTime varchar (100) NOT NULL,
+Location varchar (100) NOT NULL,
+Time INT NOT NULL, 
+Alcohol_val float NOT NULL
+);
 
 SELECT * FROM alcohol;
 
-SELECT LocationTime,location, Indicator, Time, Value 
-FROM alcohol
-WHERE location in ('CAN', 'USA', 'JPN', 'FRA', 'MEX', 'DEU', 'BRA') 
 
-CREATE TABLE Social_Support (
+CREATE TABLE social_support (
 LocationTime varchar (100) NOT NULL,
 Location varchar (100) NOT NULL,
 Indicator varchar (100) NOT NULL,
@@ -22,11 +26,8 @@ Time INT NOT NULL,
 Value float NOT NULL
 );
 
-SELECT * FROM Social_Support;
+DROP TABLE "social_support";
 
-SELECT LocationTime,location, Indicator, Time, Value 
-FROM Social_Support
-WHERE location in ('CAN', 'USA', 'JPN', 'FRA', 'MEX', 'DEU', 'BRA') 
 
 CREATE TABLE smokers (
 LocationTime varchar (100) NOT NULL,
@@ -34,6 +35,15 @@ Location varchar (100) NOT NULL,
 Indicator varchar (100) NOT NULL,
 Time INT NOT NULL, 
 Value float NOT NULL
+);
+
+DROP TABLE "smokers";
+
+CREATE TABLE smokers (
+LocationTime varchar (100) NOT NULL,
+Location varchar (100) NOT NULL,
+Time INT NOT NULL, 
+Smoking_Val float NOT NULL
 );
 
 SELECT * FROM smokers;
@@ -44,6 +54,15 @@ Location varchar (100) NOT NULL,
 Indicator varchar (100) NOT NULL,
 Time INT NOT NULL, 
 Value float NOT NULL
+);
+
+DROP TABLE "social_spending";
+
+CREATE TABLE social_spending (
+LocationTime varchar (100) NOT NULL,
+Location varchar (100) NOT NULL,
+Time INT NOT NULL, 
+Soc_Spend_Val float NOT NULL
 );
 
 SELECT * FROM social_spending;
@@ -57,6 +76,15 @@ Time INT NOT NULL,
 Value float NOT NULL
 );
 
+DROP TABLE "employment";
+
+CREATE TABLE employment (
+LocationTime varchar (100) NOT NULL,
+Location varchar (100) NOT NULL,
+Time INT NOT NULL, 
+Emp_Val float 
+);
+
 SELECT * FROM employment;
 
 CREATE TABLE obesity (
@@ -66,6 +94,15 @@ Indicator varchar (100) NOT NULL,
 Subject varchar (100) NOT NULL,
 Time INT NOT NULL, 
 Value float NOT NULL
+);
+
+DROP TABLE "obesity";
+
+CREATE TABLE obesity (
+LocationTime varchar (100) NOT NULL,
+Location varchar (100) NOT NULL,
+Time INT NOT NULL, 
+Obesity_Val float NOT NULL
 );
 
 SELECT * FROM obesity;
@@ -79,7 +116,8 @@ Time INT NOT NULL,
 Value float NOT NULL
 );
 
-SELECT * FROM poverty;
+DROP TABLE "poverty";
+
 
 CREATE TABLE education (
 LocationTime varchar (100) NOT NULL,
@@ -88,6 +126,16 @@ Indicator varchar (100) NOT NULL,
 Subject varchar (100) NOT NULL,
 Time INT NOT NULL, 
 Value float NOT NULL
+);
+
+DROP TABLE "education";
+
+CREATE TABLE education (
+LocationTime varchar (100) NOT NULL,
+Location varchar (100) NOT NULL,
+Time INT NOT NULL, 
+Edu_Sec_Val float,
+Edu_Try_Val float
 );
 
 SELECT * FROM education;
@@ -100,17 +148,17 @@ Time INT NOT NULL,
 Value float NOT NULL
 );
 
+DROP TABLE "health_spending";
+
+CREATE TABLE health_spending (
+LocationTime varchar (100) NOT NULL,
+Location varchar (100) NOT NULL,
+Time INT NOT NULL, 
+Healthy_Spend_Val float 
+);
+
 SELECT * FROM health_spending;
 
-Select LocationTime, location, time, value as ss_value
-from Social_Support
-WHERE location in ('CAN', 'USA', 'JPN', 'FRA', 'MEX', 'DEU', 'BRA') 
-
-Select ss.LocationTime, ss.location, ss.time, ss.value as ss_value,
-a.LocationTime, a.location, a.time, a.value as a_value
-from Social_Support as ss
-Full outer Join alcohol as a on ss.locationtime = a.locationtime
-WHERE a.location in ('CAN', 'USA', 'JPN', 'FRA', 'MEX', 'DEU', 'BRA')
 
 CREATE TABLE suicide_rates (
 LocationTime varchar (100) NOT NULL,
@@ -126,4 +174,24 @@ gdp_for_year varchar (100) NOT NULL,
 gdp_per_capita varchar (100) NOT NULL
 );
 
+DROP TABLE "suicide_rates";
+
+CREATE TABLE suicide_rates (
+LocationTime varchar (100) NOT NULL,
+Location varchar (100) NOT NULL,
+Time INT NOT NULL,
+Suicide_val_MEN float NOT NULL,
+Suicide_val_TOT float NOT NULL,
+Suicide_val_WOMEN float NOT NULL
+);
+
 SELECT * FROM suicide_rates;
+
+CREATE TABLE work_hour (
+LocationTime varchar (100) NOT NULL,
+Location varchar (100) NOT NULL,
+Time INT NOT NULL,
+Work_Hour_Val float NOT NULL
+);
+
+SELECT * FROM work_hour;
