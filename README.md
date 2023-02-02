@@ -139,3 +139,6 @@ To create the ERD diagram:
 ### Dashboard 
 
 A Tableau dashboard was created using the most recent data on suicides, including various factors such as age, gender, location, and methods used. This dashboard provides valuable insights and visualizations on the trends and patterns in suicides, allowing for a comprehensive analysis of the issue and its contributing factors. This information can help inform decision making and guide the development of effective strategies to prevent suicides and support those in need.
+
+
+<img width="1440" alt="TableauDashboardV3" src="https://user-images.githubusercontent.com/112133209/216229792-66b2c092-0f1b-4b7a-ae44-a5b8b21632e7.png">
