@@ -95,7 +95,7 @@ To create the ERD diagram:
 - All tables had LocationTime which is how they are joined to the suicide rate table.
 
 
-![ERD_3](ERD_3.png).
+![ERD_3](png/ERD_3.png).
 
 ### Database 
 
