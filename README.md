@@ -10,7 +10,7 @@
 
 - Daily: 2 hours 
 
-## Project plan Deliverable 1:
+## Project plan:
 
 ### Topic 
 
@@ -134,3 +134,6 @@ To create the ERD diagram:
 
 - **Random Forest** As a second ML model we decided to use a Random Forest Regressor model for analysing our dataset. A Random Forest Regressor Model has several advantages over other regression algorithms like an improved accuracy, handling non- linear relationships, little pre-processing required, robust outliers and shows a feature importance. Especially important and exciting for us is to analyse and explore  the feature importance and their impact on the suicide rates. To know which factors are especially impacting the suicide rates can give our analysis a valuable depth and support people’s health in the longterm. 
 
+[Machine Learing](https://docs.google.com/document/d/12KtiykpAun2tfJR4kHSIHeCfb0YqpiUXnc6vTmCaVhE/edit?usp=sharing)
+
+### Dashboard 
