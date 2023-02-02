@@ -186,3 +186,12 @@ Suicide_val_WOMEN float NOT NULL
 );
 
 SELECT * FROM suicide_rates;
+
+CREATE TABLE work_hour (
+LocationTime varchar (100) NOT NULL,
+Location varchar (100) NOT NULL,
+Time INT NOT NULL,
+Work_Hour_Val float NOT NULL
+);
+
+SELECT * FROM work_hour;
