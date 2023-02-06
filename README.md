@@ -42,7 +42,10 @@ In our final project we would like to investigate in-depth, which socioeconomic 
 [Poverty](https://data.oecd.org/inequality/poverty-rate.htm),
 [Suicide Rate](https://data.oecd.org/healthstat/suicide-rates.htm),
 [Reasons Source](https://afsp.org/suicide-statistics/),
-[Suicide Article](https://www.who.int/news-room/fact-sheets/detail/suicide)
+[Suicide Article](https://www.who.int/news-room/fact-sheets/detail/suicide),
+[Mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work#:~:text=They%20may%20include%20giving%20individual,regular%20supportive%20meetings%20with%20supervisors),
+[Community Strategies to Reduce Excessive Alcohol Use](https://www.cdc.gov/cancer/alcohol/reducing-excessive-alcohol-use/community-strategies.htm),
+[Reducing harm due to alcohol: success stories from 3 countries](https://www.who.int/europe/news/item/15-04-2021-reducing-harm-due-to-alcohol-success-stories-from-3-countries)
 
 - Source: Pandas, Jupyter Notebook, SQL, PostgreSQL, DBD, Visual Studio.
 
@@ -132,7 +135,45 @@ To create the ERD diagram:
 
 - **Multiple Linear Regression Model** The aim of our project is to develop a model to predict suicide rates in 1, 3, and 5 years Organisation for Economic Co-operation and Development (OECD) countries while also identifying determinants with the most impact. The purpose is to hopefully gain insight on major determinants that heavily increase or decrease suicide rates in these countries. To achieve this goal, our team has decided to utilize a Supervised Learning Multiple Linear Regression Model. A Supervised Learning Regression Model strengths include exhibiting the relationships between variables while also being able to predict values.  We feel this type of model is the best fit to accomplish our goal of creating a predictive model for future use. In order to train this model we will use the sklearn train split function.The accuracy of our models is not very high which may be a concern. This model works by taking the individual features and corresponding suicide data points to create a line of regression intended to predict suicide rates based on the specific feature. If we see an upward trend we can infer there is a correlation between the feature and increasing suicide rates. If we had more time I we would want to implement This will make our model a valuable tool in not only forecasting a trends of suicide rates, but also spotlighting the potential characters that will have a lasting effect on people’s health. I think the model at its current state is very poor so if we had more time I would definitely explore ways to increase the R-squared value and perhaps look into ways to improve the scaling of the data.
 
+**Multiple Linear Prediction**
+
+![multilinear_predict_avg](png/multilinear_predict_avg.png).
+
+![multilinear_predict_zero](png/multilinear_predict_zero.png).
+
+
+**Multiple Linear Accuracy**
+
+![multilinear_accuracy_avg](png/multilinear_accuracy_avg.png).
+
+![multilinear_accuracy_zero](png/multilinear_accuracy_zero.png).
+
 - **Random Forest** As a second ML model we decided to use a Random Forest Regressor model for analysing our dataset. A Random Forest Regressor Model has several advantages over other regression algorithms like an improved accuracy, handling non- linear relationships, little pre-processing required, robust outliers and shows a feature importance. Especially important and exciting for us is to analyse and explore  the feature importance and their impact on the suicide rates. To know which factors are especially impacting the suicide rates can give our analysis a valuable depth and support people’s health in the longterm. 
+
+**Random Forest Prediction**
+
+
+![random_predict_avg](png/random_predict_avg.png).
+
+
+![random_predict_zero](png/random_predict_zero.png).
+
+
+**Random Forest Accuracy**
+
+
+![random_accuracy_avg](png/random_accuracy_avg.png).
+
+
+![random_accuracy_zero](png/random_accuracy_zero.png).
+
+
+**Random Forest Features**
+
+![random_features_avg](png/random_features_avg.png).
+
+
+![random_features_zero](png/random_features_zero.png).
 
 [Machine Learing](https://docs.google.com/document/d/12KtiykpAun2tfJR4kHSIHeCfb0YqpiUXnc6vTmCaVhE/edit?usp=sharing)
 
@@ -142,3 +183,34 @@ A Tableau dashboard was created using the most recent data on suicides, includin
 
 
 <img width="1440" alt="TableauDashboardV3" src="https://user-images.githubusercontent.com/112133209/216229792-66b2c092-0f1b-4b7a-ae44-a5b8b21632e7.png">
+
+## Conclusion 
+### Prevention Plan 
+- Alcohol consumption
+
+**Taxes over price:** Increasing the price of alcohol through taxes or minimum pricing policies.
+
+**Restricting availability** Restricting availability of alcohol, such as reducing the number of retail outlets, limiting sale hours and alcohol advertisement
+
+**Education:** Providing education and social support for individuals, especially those at higher risk of harmful drinking.
+
+
+- Work hours 
+
+**Foster positive relationships:** Encourage positive and supportive relationships between coworkers and supervisors, and address conflicts in a constructive manner.
+
+**Encourage open conversation about mental health:** Break the stigma surrounding mental health and encourage open conversation about the topic.
+
+**Encourage a healthy work-life balance:** Encourage employees to take breaks, set boundaries between work and personal life, and prioritize self-care.
+
+
+### Recommendations
+
+During this project our group realized suicide is a complex issue that is not easily remedied by fixing a handful of factors. It is a multifaceted problem that requires more attention in order to work towards solutions.
+
+- Weather data
+- Mental health
+- Immigration status
+- Cultural views
+
+Suicide is not a topic where there is a universal solution. Each country needs to implement a suicide prevention plan that is tailored towards their unique cultures and the needs of their people. However, it is not just up to positions of power to prevent suicides, communities must also band together to do their part to ensure everyone can lead a healthy and fulfilling
