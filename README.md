@@ -4,11 +4,15 @@
 
 - Segment 1: Done
 - Segment 2: Done
-- Segment 3: In progress 
+- Segment 3: Done 
 
 ## Regular meeting schedule:
 
 - Daily: 2 hours 
+
+## Presentation
+
+[Presentation](https://docs.google.com/presentation/d/1JAfHR-uBMhkq0Gie61d-OH_knCwXTmx2iKtsgU6_Qso/edit?usp=sharing)
 
 ## Project plan:
 
