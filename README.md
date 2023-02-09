@@ -185,8 +185,18 @@ To create the ERD diagram:
 
 A Tableau dashboard was created using the most recent data on suicides, including various factors such as age, gender, location, and methods used. This dashboard provides valuable insights and visualizations on the trends and patterns in suicides, allowing for a comprehensive analysis of the issue and its contributing factors. This information can help inform decision making and guide the development of effective strategies to prevent suicides and support those in need.
 
+[Tableau Dashboard](https://public.tableau.com/app/profile/yash.b6476/viz/Alcoholconsumption_16757364327460/Story1?publish=yes)
 
-<img width="1440" alt="TableauDashboardV3" src="https://user-images.githubusercontent.com/112133209/216229792-66b2c092-0f1b-4b7a-ae44-a5b8b21632e7.png">
+![alcohol_tableau](Images/alcohol_tableau.png).
+
+![work_hour_tableau](Images/work_hour_tableau.png).
+
+![total_suicide](Images/total_suicide.png).
+
+![map_suicide](Images/map_suicide.png).
+
+![gender_suicide](Images/gender_suicide.png).
+
 
 ## Conclusion 
 ### Prevention Plan 
