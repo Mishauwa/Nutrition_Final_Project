@@ -102,7 +102,7 @@ To create the ERD diagram:
 - All tables had LocationTime which is how they are joined to the suicide rate table.
 
 
-![ERD_3](png/ERD_3.png).
+![ERD_3](Images/ERD_3.png).
 
 ### Database 
 
@@ -116,23 +116,23 @@ To create the ERD diagram:
 - We went back to the tables and drop ‘Social_support’ and ‘Poverty’ tables
 - All the other tables we drop the ‘Indicator’ and ‘Subject’ columns
 
-![alcohol_table](png/alcohol_table.png).
+![alcohol_table](Images/alcohol_table.png).
 
-![education_table](png/education_table.png).
+![education_table](Images/education_table.png).
 
-![employment_table](png/employment_table.png).
+![employment_table](Images/employment_table.png).
 
-![health_spending_table](png/health_spending_table.png).
+![health_spending_table](Images/health_spending_table.png).
 
-![obesity_table](png/obesity_table.png).
+![obesity_table](Images/obesity_table.png).
 
-![smoking_table](png/smoking_table.png).
+![smoking_table](Images/smoking_table.png).
 
-![social_spending_table](png/social_spending_table.png).
+![social_spending_table](Images/social_spending_table.png).
 
-![suicide_table](png/suicide_table.png).
+![suicide_table](Images/suicide_table.png).
 
-![work_hour_table](png/work_hour_table.png).
+![work_hour_table](Images/work_hour_table.png).
 
 
 ### Machine Learning 
@@ -141,43 +141,43 @@ To create the ERD diagram:
 
 **Multiple Linear Prediction**
 
-![multilinear_predict_avg](png/multilinear_predict_avg.png).
+![multilinear_predict_avg](Images/multilinear_predict_avg.png).
 
-![multilinear_predict_zero](png/multilinear_predict_zero.png).
+![multilinear_predict_zero](Images/multilinear_predict_zero.png).
 
 
 **Multiple Linear Accuracy**
 
-![multilinear_accuracy_avg](png/multilinear_accuracy_avg.png).
+![multilinear_accuracy_avg](Images/multilinear_accuracy_avg.png).
 
-![multilinear_accuracy_zero](png/multilinear_accuracy_zero.png).
+![multilinear_accuracy_zero](Images/multilinear_accuracy_zero.png).
 
 - **Random Forest** As a second ML model we decided to use a Random Forest Regressor model for analysing our dataset. A Random Forest Regressor Model has several advantages over other regression algorithms like an improved accuracy, handling non- linear relationships, little pre-processing required, robust outliers and shows a feature importance. Especially important and exciting for us is to analyse and explore  the feature importance and their impact on the suicide rates. To know which factors are especially impacting the suicide rates can give our analysis a valuable depth and support people’s health in the longterm. 
 
 **Random Forest Prediction**
 
 
-![random_predict_avg](png/random_predict_avg.png).
+![random_predict_avg](Images/random_predict_avg.png).
 
 
-![random_predict_zero](png/random_predict_zero.png).
+![random_predict_zero](Images/random_predict_zero.png).
 
 
 **Random Forest Accuracy**
 
 
-![random_accuracy_avg](png/random_accuracy_avg.png).
+![random_accuracy_avg](Images/random_accuracy_avg.png).
 
 
-![random_accuracy_zero](png/random_accuracy_zero.png).
+![random_accuracy_zero](Images/random_accuracy_zero.png).
 
 
 **Random Forest Features**
 
-![random_features_avg](png/random_features_avg.png).
+![random_features_avg](Images/random_features_avg.png).
 
 
-![random_features_zero](png/random_features_zero.png).
+![random_features_zero](Images/random_features_zero.png).
 
 [Machine Learing](https://docs.google.com/document/d/12KtiykpAun2tfJR4kHSIHeCfb0YqpiUXnc6vTmCaVhE/edit?usp=sharing)
 
